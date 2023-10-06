@@ -6,10 +6,15 @@
 html {
   font-size: 62.5%;
 }
+
+main {
+  display: contents;
+  place-items: center; 
+  justify-content: center;
+}
+
 body {
   font-family: "Goldman", cursive;
-  display: inline;
-  max-width: 25vw;
 }
 body.alt {
   background-color: black;
@@ -53,6 +58,17 @@ nav img {
   width: 5vw;
 }
 
-img {
-  width: 25vw;
+div.box {
+  float: left;
+  width: 20%; 
+  margin: 20%;
+  margin-right:0;
+}
+
+img.box {
+  float: right;
+  width: 20%; 
+  margin: 20%;
+  margin-left: 0;
+
 }
